@@ -1,0 +1,69 @@
+url: http://streetturtle.github.io
+projectUrl: jekyl-cv-crafter
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Teymuraz
+  depiction: headshot.png
+  profession: SysAdmin
+  location: Blanes
+  citizenship: España
+  email: tdatebachvili@gmail.com
+  github: /tdatebashvili
+  linkedin: /tdatebashvili
+
+career: 
+ - position: Técnico en Administración de Sistemas Informáticos en Red
+   company: Netbynet Consulting de Sistemas S.L
+   location: Lloret de Mar, España
+   dates: Marzo 2019 - Actualmente
+   summary: Administrar el despliegue e instalación de Sistemas Operativos.
+            - Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
+            - Configuración de servidores basados en Windows / Linux.
+            - Instalación Active Directory, y administración de usuarios, DNS y DHCP.
+            - Configuración de Firewalls Mikrotik, OPNSense
+
+ - position: Técnico en Administración de Sistemas Informáticos en Red
+   company: Netbynet Consulting de Sistemas S.L
+   location: Lloret de Mar, España
+   dates: Junio 2018 - Marzo 2019
+   summary: Configurar y migrar equipos informáticos.
+            - Administrar, configurar y mantener el correo y las aplicaciones corporativas.
+
+technicalSkills:
+  list:
+    - tr: "Impulsive, creative and very social"
+  backend:
+   - name: Ninjutsu
+     level: 90
+   - name: Kusarigama
+     level: 80
+  frontend:
+   - name: Cooking Skills
+     level: 80
+   - name: Pranks
+     level: 90
+  other:
+   - name: Shadow Puppet Skill
+     level: 90
+   - name: Teaching
+     level: 100
+
+sideProjects:
+  - name: jekyll-clean-dark
+    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
+    link: https://github.com/streetturtle/jekyll-clean-dark
+    type: github
+    langs: HTML/CSS/Bootstrap
+
+  - name: number-writing-trainer
+    description: Application which helps with learning foreign numerals. Was created to help with learning how to write french numbers as well as to practice AngularJS.
+    link: http://pavelmakhov.com/number-writing-trainer/#/
+    type: site
+    langs: AngularJS/HTML/CSS/Bootstrap
+
+education:
+  - name: Técnico superior en administración de sistemas en red
+    degree: IES Sa Palomera
+    location: Blanes
+    dates: 2018 – 2020
