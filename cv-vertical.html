@@ -83,14 +83,14 @@
           <!-- TECHNICALS SKILLS -->
           <div class="section">
             <h4><i class="fa fa-cogs" aria-hidden="true"></i> Technicals skillls</h4>
-            {% for item in site.data.cv.technicalSkills.backend %} {{item.name}}
+            {% for item in site.data.cv.technicalSkills.so %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
             </div>
             {% endfor %}
 
             <!--            <h4 class="techSkillHeader"><i class="fa fa-code"></i> Frontend</h4> -->
-            {% for item in site.data.cv.technicalSkills.frontend %} {{item.name}}
+            {% for item in site.data.cv.technicalSkills.programming %} {{item.name}}
             <div class="progress">
               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
             </div>

@@ -132,43 +132,55 @@
 
     <div class="row section section-border pagebreakishere">
       <div class="col-xs-3">
-        <h2>Habilidades</h2>
+        <h2>Hard Skills</h2>
       </div>
       <div class="col-xs-9">
         <div class="row">
           <div class="col-xs-4">
 
-            <h4 class="techSkillHeader"><i class="fa fa-terminal"></i> Backend</h4>
-            {% for item in site.data.cv.technicalSkills.backend %} {{item.name}}
+            <h4 class="techSkillHeader"><i class="fa fa-terminal"></i> Sistemas Operativos</h4>
+            {% for item in site.data.cv.hardSkills.so %} {{item.name}}
           <div class="progress">
             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
           </div>
           {% endfor %}
         </div>
         <div class="col-xs-4">
-          <h4 class="techSkillHeader"><i class="fa fa-code"></i> Frontend</h4> {% for item in site.data.cv.technicalSkills.frontend %} {{item.name}}
+          <h4 class="techSkillHeader"><i class="fa fa-code"></i> Programación</h4> {% for item in site.data.cv.hardSkills.programming %} {{item.name}}
           <div class="progress">
             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
           </div>
           {% endfor %}
         </div>
         <div class="col-xs-4">
-          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Other</h4> {% for item in site.data.cv.technicalSkills.other %} {{item.name}}
-          <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{item.level}}%"></div>
-          </div>
+          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Otros</h4> {% for item in site.data.cv.hardSkills.other %} {{item.name}}
           {% endfor %}
         </div>
         </div>
         <div>
           <h4><i class="fa fa-male"></i> Key competencies:</h4>
         <ul>
-          {% for item in site.data.cv.technicalSkills.list %}
+          {% for item in site.data.cv.hardSkills.list %}
             <li>{{item.tr}}</li>
           {% endfor %}
         </ul>
 
             </div>
+      </div>
+    </div>
+
+    <div class="row section section-border pagebreakishere">
+      <div class="col-xs-3">
+        <h2>Soft Skills</h2>
+      </div>
+      <div class="col-xs-9">
+        <div>
+          <ul>
+            {% for item in site.data.cv.softSkills.list %}
+              <li>{{item.tr}}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
 

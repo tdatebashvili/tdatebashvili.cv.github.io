@@ -17,8 +17,8 @@ career:
    company: Netbynet Consulting de Sistemas S.L
    location: Lloret de Mar, España
    dates: Marzo 2019 - Actualmente
-   summary: 
-    list: 
+   summary: Jornada completa
+   list: 
         - tr: Administrar el despliegue e instalación de Sistemas Operativos.
         - tr: Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
         - tr: Configuración de servidores basados en Windows / Linux.
@@ -29,45 +29,63 @@ career:
    company: Netbynet Consulting de Sistemas S.L
    location: Lloret de Mar, España
    dates: Junio 2018 - Marzo 2019
-   summary: 
+   summary: Contraro en práctica
    list:
         - tr: Configurar y migrar equipos informáticos.
         - tr: Administrar, configurar y mantener el correo y las aplicaciones corporativas.
 
-technicalSkills:
+hardSkills:
   list:
     - tr: "Impulsive, creative and very social"
-  backend:
-   - name: Ninjutsu
-     level: 90
-   - name: Kusarigama
+  so:
+   - name: Windows
      level: 80
-  frontend:
-   - name: Cooking Skills
-     level: 80
-   - name: Pranks
-     level: 90
+   - name: Linux
+     level: 70
+   - name: MacOS
+     level: 20
+  programming:
+   - name: Python
+     level: 60
+   - name: PHP
+     level: 50
+   - name: Bash
+     level: 50
+   - name: SQL
+     level: 60
   other:
-   - name: Shadow Puppet Skill
-     level: 90
-   - name: Teaching
-     level: 100
+   - name: Networking
+   - name: Scripting
+
+softSkills:
+  list:
+    - tr: "Trabajo en equipo y cooperación."
+    - tr: "Resolución de problemas"
+    - tr: "Autoaprendizaje"
 
 sideProjects:
-  - name: jekyll-clean-dark
-    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
-    link: https://github.com/streetturtle/jekyll-clean-dark
+  - name: CH-Destino
+    description: CH-Destino es un plugin de wordpress que sirve para contabilizar las horas destinadas a una determinida tarea.
+                Este plugin es una practica de la matéria Implementaciones de aplicaciones Web del CFGS de Administración de Sistemas Informaticos en Red del Instituto Sa Palomera.
+    link: https://github.com/tdatebashvili/CH-Destino
     type: github
-    langs: HTML/CSS/Bootstrap
+    langs: PHP/CSS
 
-  - name: number-writing-trainer
-    description: Application which helps with learning foreign numerals. Was created to help with learning how to write french numbers as well as to practice AngularJS.
-    link: http://pavelmakhov.com/number-writing-trainer/#/
-    type: site
-    langs: AngularJS/HTML/CSS/Bootstrap
+  - name: Hello-user
+    description: Hello-user es un plugin de Drupal que sirve para saludar a los visitantes del blog.
+                  Este plugin es una practica de la matéria Implementaciones de aplicaciones Web del CFGS de Administración de Sistemas Informaticos en Red del Instituto Sa Palomera.
+    link: https://github.com/tdatebashvili/Hello-user
+    type: github
+    langs: PHP
+
+  - name: Rsyslog App
+    description: Rsyslog App es una web local de la empresa Netbynet, dedicada a controlar el estado de los diferentes nakivos, así como los backups.
+    type: Proyecto interno de la empresa
+    langs: Laravel/Bash/Syslog/HTML/CSS
 
 education:
   - name: Técnico superior en administración de sistemas en red
     degree: IES Sa Palomera
     location: Blanes
     dates: 2018 – 2020
+    link: https://www.sapalomera.cat/estudis/cicles-formatius-informatica/
