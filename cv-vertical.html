@@ -143,12 +143,9 @@
               </div>
               <div class="row">
                 <div class="col-xs-12">
-
-                  {% if item.accomplishments.size > 0 %}
-                  <b>Selected accomplishments:</b> {% endif %}
                   <ul>
-                    {% for itemm in item.accomplishments %}
-                    <li>{{itemm.accomplishment}}</li>
+                    {% for itemm in item.list %}
+                    <li>{{itemm.tr}}</li>
                     {% endfor %}
                   </ul>
                 </div>
@@ -170,7 +167,6 @@
             </div>
             {% endfor %}
           </div>
-
         </div>
       </div>
     </div>
