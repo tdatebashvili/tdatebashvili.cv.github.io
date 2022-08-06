@@ -152,14 +152,11 @@
           {% endfor %}
         </div>
         <div class="col-xs-4">
-          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Otros</h4> {% for item in site.data.cv.hardSkills.other %}
+          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Otros</h4> {% for item in site.data.cv.hardSkills.list %}
           <div class="col-xs-12">
             <ul>
-            {% for item in item.list %}
               <li>{{item.tr}}</li>
-            {% endfor %}
             </ul>
-          </div>
           {% endfor %}
         </div>
         </div>
