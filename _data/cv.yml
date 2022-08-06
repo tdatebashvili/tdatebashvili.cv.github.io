@@ -3,7 +3,7 @@ projectUrl: jekyl-cv-crafter
 
 # leave blank fields which you don't want to fill/be displayed
 person:
-  name: Teymuraz
+  name: Teymuraz Datebashvili
   depiction: headshot.png
   profession: SysAdmin
   location: Blanes
@@ -17,18 +17,22 @@ career:
    company: Netbynet Consulting de Sistemas S.L
    location: Lloret de Mar, España
    dates: Marzo 2019 - Actualmente
-   summary: Administrar el despliegue e instalación de Sistemas Operativos.
-            - Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
-            - Configuración de servidores basados en Windows / Linux.
-            - Instalación Active Directory, y administración de usuarios, DNS y DHCP.
-            - Configuración de Firewalls Mikrotik, OPNSense
+   summary: 
+    list: 
+        - tr: Administrar el despliegue e instalación de Sistemas Operativos.
+        - tr: Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
+        - tr: Configuración de servidores basados en Windows / Linux.
+        - tr: Instalación Active Directory, y administración de usuarios, DNS y DHCP.
+        - tr: onfiguración de Firewalls Mikrotik, OPNSense
 
  - position: Técnico en Administración de Sistemas Informáticos en Red
    company: Netbynet Consulting de Sistemas S.L
    location: Lloret de Mar, España
    dates: Junio 2018 - Marzo 2019
-   summary: Configurar y migrar equipos informáticos.
-            - Administrar, configurar y mantener el correo y las aplicaciones corporativas.
+   summary: 
+    list:
+        - tr: Configurar y migrar equipos informáticos.
+        - tr: Administrar, configurar y mantener el correo y las aplicaciones corporativas.
 
 technicalSkills:
   list:
