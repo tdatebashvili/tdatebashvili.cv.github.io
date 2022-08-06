@@ -35,8 +35,6 @@ career:
         - tr: Administrar, configurar y mantener el correo y las aplicaciones corporativas.
 
 hardSkills:
-  list:
-    - tr: "Impulsive, creative and very social"
   so:
    - name: Windows
      level: 80
@@ -53,16 +51,18 @@ hardSkills:
      level: 50
    - name: SQL
      level: 60
-  other:
-    list:
-      - tr: Networking
-      - tr: Scripting
+  list:
+    - tr: Networking
+    - tr: Scripting
 
 softSkills:
   list:
     - tr: "Trabajo en equipo y cooperación."
     - tr: "Resolución de problemas"
     - tr: "Autoaprendizaje"
+    - tr: "Iniciativa"
+    - tr: "Resiliencia"
+    - tr: "Gestión de tiempo"
 
 sideProjects:
   - name: CH-Destino
