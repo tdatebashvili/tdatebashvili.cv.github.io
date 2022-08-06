@@ -117,13 +117,13 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-            <ul>
-            {% for itemm in item.list %}
-              <li>{{itemm.tr}}</li>
-            {% endfor %}
-            </ul>
-          </div>
+              <ul>
+              {% for itemm in item.list %}
+                <li>{{itemm.tr}}</li>
+              {% endfor %}
+              </ul>
             </div>
+          </div>
         </div>
         {% endfor %}
       </div>
@@ -152,7 +152,14 @@
           {% endfor %}
         </div>
         <div class="col-xs-4">
-          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Otros</h4> {% for item in site.data.cv.hardSkills.other %} {{item.name}}
+          <h4 class="techSkillHeader"><i class="fa fa-cogs"></i> Otros</h4> {% for item in site.data.cv.hardSkills.other %}
+          <div class="col-xs-12">
+            <ul>
+            {% for item in item.list %}
+              <li>{{item.tr}}</li>
+            {% endfor %}
+            </ul>
+          </div>
           {% endfor %}
         </div>
         </div>

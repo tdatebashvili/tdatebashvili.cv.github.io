@@ -54,8 +54,9 @@ hardSkills:
    - name: SQL
      level: 60
   other:
-   - name: Networking
-   - name: Scripting
+    list:
+      - tr: Networking
+      - tr: Scripting
 
 softSkills:
   list:
