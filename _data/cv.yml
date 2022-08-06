@@ -87,6 +87,43 @@ sideProjects:
 education:
   - name: Técnico superior en administración de sistemas en red
     degree: IES Sa Palomera
-    location: Blanes
+    location: Blanes, España
     dates: 2018 – 2020
     link: https://www.sapalomera.cat/estudis/cicles-formatius-informatica/
+
+certification:
+  - name: Networking Fundamentals
+    degree: Microsoft
+    id: oQxB-uGHk
+    dates: 2020
+    link: http://verify.certiport.com
+
+  - name: Introduction to Programming using HTML and CSS
+    degree: Microsoft
+    id: 2DwB-XMhk
+    dates: 2020
+    link: http://verify.certiport.com
+
+  - name: Introduction to Programming using Python
+    degree: Microsoft
+    id: wMNTA-H9MW
+    dates: 2020
+    link: http://verify.certiport.com
+
+  - name: Windows Server Administration Fundamentals
+    degree: Microsoft
+    id: m79V-DThm
+    dates: 2020
+    link: http://verify.certiport.com
+
+  - name: Database Fundamentals
+    degree: Microsoft
+    id: CqVD-XVN7
+    dates: 2020
+    link: http://verify.certiport.com
+
+  - name: Linux LPIC1
+    degree: IDFO
+    id: 
+    dates: 2021 – 2026
+    link: http://verify.certiport.com

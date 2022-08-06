@@ -210,8 +210,23 @@
         {% for item in site.data.cv.education %}
         <div class="row">
           <div class="col-xs-12"><h4><b>{{item.name}}</b></h4></div>
+          <div class="col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}} ({{item.dates}}), {{item.location}}</div>
+          <div class="col-xs-12"><a href="{{item.link}}">{{item.link}}</a></div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+
+    <div class="row section section-border">
+      <div class="col-xs-3"><h2>Formación complementaría</h2></div>
+      <div class="col-xs-9">
+
+        {% for item in site.data.cv.certification %}
+        <div class="row">
+          <div class="col-xs-12"><h4><b>{{item.name}}</b></h4></div>
           <div class="col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}} ({{item.dates}})</div>
-          <div class="col-xs-12"><a href="{{item.link}}">{{item.link}}</a>, {{item.location}}</div>
+          <div class="col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.id}}</div>
+          <div class="col-xs-12"><a href="{{item.link}}">{{item.link}}</a></div>
         </div>
         {% endfor %}
         </div>
