@@ -23,7 +23,8 @@ career:
         - tr: Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
         - tr: Configuración de servidores basados en Windows / Linux.
         - tr: Instalación Active Directory, y administración de usuarios, DNS y DHCP.
-        - tr: Configuración de Firewalls Mikrotik, OPNSense
+        - tr: Configuración de Firewalls Mikrotik, OPNSense.
+        - tr: Desarollo de aplicaciones web.
 
  - position: Técnico en Administración de Sistemas Informáticos en Red
    company: Netbynet Consulting de Sistemas S.L
@@ -51,6 +52,10 @@ hardSkills:
      level: 50
    - name: SQL
      level: 60
+   - name: Html
+     level: 80
+   - name: CSS
+     level: 50
   list:
     - tr: Networking
     - tr: Scripting
@@ -80,7 +85,7 @@ sideProjects:
     langs: PHP
 
   - name: Rsyslog App
-    description: Rsyslog App es una web local de la empresa Netbynet, dedicada a controlar el estado de los diferentes nakivos, así como los backups.
+    description: Rsyslog App es una web local de la empresa Netbynet, creada con el framework de Laravel más livewire y tailwind. Está dedicada a controlar el estado de los diferentes nakivos, así como los backups de maquinas virtuales.
     type: Proyecto interno de la empresa
     langs: Laravel/Bash/Syslog/HTML/CSS
 
