@@ -22,9 +22,9 @@ career:
         - tr: Administrar el despliegue e instalación de Sistemas Operativos.
         - tr: Desplegar Software, actualizaciones y parches a sistemas virtuales tradicionales.
         - tr: Configuración de servidores basados en Windows / Linux.
-        - tr: Instalación Active Directory, y administración de usuarios, DNS y DHCP.
-        - tr: Configuración de Firewalls Mikrotik, OPNSense.
-        - tr: Desarollo de aplicaciones web.
+        - tr: Instalación Active Directory, administración de usuarios, DNS y DHCP.
+        - tr: Configuración de Firewalls Mikrotik, OPNSense, Fortinet, PFSense.
+        - tr: Desarollo de aplicaciones web con framework tales como Laravel y Symfony.
 
  - position: Técnico en Administración de Sistemas Informáticos en Red
    company: Netbynet Consulting de Sistemas S.L
@@ -44,21 +44,21 @@ hardSkills:
    - name: MacOS
      level: 20
   programming:
-   - name: Python
-     level: 60
    - name: PHP
-     level: 50
-   - name: Bash
      level: 50
    - name: SQL
      level: 60
    - name: Html
      level: 80
    - name: CSS
+     level: 30
+  scripting:
+  - name: Python
+     level: 30
+  - name: Bash
      level: 50
   list:
     - tr: Networking
-    - tr: Scripting
 
 softSkills:
   list:
